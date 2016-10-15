@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Asus\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.4.0\ddd166d01b3158d1c00576d29f7ed15c030df719\eventbus-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="C:\Android Projects\EmPubLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\eventbus-2.4.0_f03176e4c57999d9fdae36ea2b6de5de6cd7751e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Asus\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Android Projects\EmPubLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-1.9.0_60e18bb9c2d04e579c9567ce75a218e8fdeefa0f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Asus\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.4.0\40340c0748190fe897baf7bffbc1b282734294e5\okhttp-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="C:\Android Projects\EmPubLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.4.0_fff1e1c997f479eed5e90e5f5aa882bb8bf252fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Asus\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Android Projects\EmPubLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_588da750401d0b83575ed70087c63e223d509276\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android Projects\EmPubLite\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8b43f49312162cb23ff533b0fd6d881f958ba143">
+        <dex dex="C:\Android Projects\EmPubLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7c462f41738e8797480ca9cca1d1ec8e0a09523f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android Projects\EmPubLite\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2a6b7c4f542eb882e7756c0934f0aa1704a7b2b1">
+        <dex dex="C:\Android Projects\EmPubLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fa5e56de0959e65df97dd4be61a0b130ffaaffe1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android Projects\EmPubLite\app\build\intermediates\exploded-aar\com.commonsware.cwac\security\0.5.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="15e100b55a19b1aca45d96e1555d120f0115d7f8">
+        <dex dex="C:\Android Projects\EmPubLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.commonsware.cwac-security-0.5.2_8859a8311e1bab4e8d0fbf181dcbd4722db1205c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android Projects\EmPubLite\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="be09545b7e6ff322c7286d2e80bed3b75b76c529">
+        <dex dex="C:\Android Projects\EmPubLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_03a7df461b3f1ce6a2fa06ec8a938e4fb9376b3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android Projects\EmPubLite\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Android Projects\EmPubLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_bec9dbe49f9e2400bb90f649d0526ca54de5eb00\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android Projects\EmPubLite\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Android Projects\EmPubLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_d77ebaeeb4a30cec9d8a695257090663e4cbc580\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Asus\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.4.0\5b72bf48563ea8410e650de14aa33ff69a3e8c35\okio-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="C:\Android Projects\EmPubLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.4.0_857ea9bafe3eff3b559b81ed8010f4f052b7922e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android Projects\EmPubLite\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2bf893856577f5038c0b8007a43fda3b3c5beb23">
+        <dex dex="C:\Android Projects\EmPubLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-23.4.0_df02a780613ff1d646c8c8ba52096ccef59c3354\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Asus\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Android Projects\EmPubLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_abcd48760363049eca39ff1a3058cc061646c4f9\classes.dex" />
+    </item>
+
+</items>
