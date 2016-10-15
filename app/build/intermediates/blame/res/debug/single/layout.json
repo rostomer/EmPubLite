@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_simple_common.xml",
+        "source": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\layout\\activity_simple_common.xml"
+    }
+]

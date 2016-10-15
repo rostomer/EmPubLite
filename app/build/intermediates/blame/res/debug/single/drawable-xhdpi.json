@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_about.png",
+        "source": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_about.png"
+    },
+    {
+        "merged": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_discard.png",
+        "source": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_discard.png"
+    },
+    {
+        "merged": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_help.png",
+        "source": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_help.png"
+    },
+    {
+        "merged": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_refresh.png",
+        "source": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_refresh.png"
+    },
+    {
+        "merged": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_settings.png",
+        "source": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_settings.png"
+    },
+    {
+        "merged": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_edit.png",
+        "source": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_edit.png"
+    }
+]
