@@ -7,17 +7,17 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 57,
-                    "endOffset": 108
+                    "endColumn": 45,
+                    "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 90,
-                        "endColumn": 57,
-                        "endOffset": 143
+                        "startLine": 4,
+                        "startColumn": 2,
+                        "startOffset": 147,
+                        "endColumn": 43,
+                        "endOffset": 188
                     }
                 }
             },
@@ -25,18 +25,18 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 113,
-                    "endColumn": 55,
-                    "endOffset": 164
+                    "startOffset": 101,
+                    "endColumn": 46,
+                    "endOffset": 143
                 },
                 "from": {
-                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 149,
-                        "endColumn": 55,
-                        "endOffset": 200
+                        "startLine": 2,
+                        "startColumn": 2,
+                        "startOffset": 53,
+                        "endColumn": 44,
+                        "endOffset": 95
                     }
                 }
             },
@@ -44,56 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 169,
-                    "endColumn": 39,
-                    "endOffset": 204
+                    "startOffset": 148,
+                    "endColumn": 50,
+                    "endOffset": 194
                 },
                 "from": {
-                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 141,
-                        "endColumn": 39,
-                        "endOffset": 176
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 209,
-                    "endColumn": 46,
-                    "endOffset": 251
-                },
-                "from": {
-                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 56,
-                        "endColumn": 46,
-                        "endOffset": 98
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 256,
-                    "endColumn": 69,
-                    "endOffset": 321
-                },
-                "from": {
-                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 240,
-                        "endColumn": 69,
-                        "endOffset": 305
+                        "startColumn": 2,
+                        "startOffset": 98,
+                        "endColumn": 48,
+                        "endOffset": 144
                     }
                 }
             },
@@ -101,18 +63,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 326,
-                    "endColumn": 37,
-                    "endOffset": 359
+                    "startOffset": 2447,
+                    "endColumn": 57,
+                    "endOffset": 2500
                 },
                 "from": {
-                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 103,
-                        "endColumn": 37,
-                        "endOffset": 136
+                        "startLine": 2,
+                        "startColumn": 2,
+                        "startOffset": 84,
+                        "endColumn": 55,
+                        "endOffset": 137
                     }
                 }
             },
@@ -120,20 +82,210 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 364,
-                    "endLine": 13,
-                    "endColumn": 12,
-                    "endOffset": 691
+                    "startOffset": 2505,
+                    "endColumn": 55,
+                    "endOffset": 2556
+                },
+                "from": {
+                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 2,
+                        "startOffset": 140,
+                        "endColumn": 53,
+                        "endOffset": 191
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 2561,
+                    "endColumn": 39,
+                    "endOffset": 2596
+                },
+                "from": {
+                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 2,
+                        "startOffset": 144,
+                        "endColumn": 37,
+                        "endOffset": 179
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 2601,
+                    "endColumn": 47,
+                    "endOffset": 2644
+                },
+                "from": {
+                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 2,
+                        "startOffset": 14,
+                        "endColumn": 45,
+                        "endOffset": 57
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 2649,
+                    "endColumn": 37,
+                    "endOffset": 2682
+                },
+                "from": {
+                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 2,
+                        "startOffset": 108,
+                        "endColumn": 35,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 2687,
+                    "endColumn": 49,
+                    "endOffset": 2732
+                },
+                "from": {
+                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 2,
+                        "startOffset": 60,
+                        "endColumn": 47,
+                        "endOffset": 105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 2737,
+                    "endColumn": 113,
+                    "endOffset": 2846
+                },
+                "from": {
+                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 2,
+                        "startOffset": 384,
+                        "endColumn": 111,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 2851,
+                    "endColumn": 61,
+                    "endOffset": 2908
+                },
+                "from": {
+                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 2,
+                        "startOffset": 496,
+                        "endColumn": 59,
+                        "endOffset": 553
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 2913,
+                    "endColumn": 139,
+                    "endOffset": 3048
+                },
+                "from": {
+                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 2,
+                        "startOffset": 246,
+                        "endColumn": 137,
+                        "endOffset": 381
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 3053,
+                    "endColumn": 65,
+                    "endOffset": 3114
+                },
+                "from": {
+                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 2,
+                        "startOffset": 182,
+                        "endColumn": 63,
+                        "endOffset": 243
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 3119,
+                    "endColumn": 45,
+                    "endOffset": 3160
+                },
+                "from": {
+                    "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 2,
+                        "startOffset": 556,
+                        "endColumn": 43,
+                        "endOffset": 597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 3165,
+                    "endLine": 20,
+                    "endColumn": 10,
+                    "endOffset": 3287
                 },
                 "from": {
                     "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 54,
-                        "endLine": 8,
-                        "endColumn": 12,
-                        "endOffset": 381
+                        "startColumn": 2,
+                        "startOffset": 50,
+                        "endLine": 5,
+                        "endColumn": 10,
+                        "endOffset": 172
                     }
                 }
             }

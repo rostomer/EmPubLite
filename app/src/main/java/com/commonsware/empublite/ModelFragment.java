@@ -1,76 +1,79 @@
 package com.commonsware.empublite;
 
-/**
- * Created by Asus on 14.10.2016.
- */
 import android.app.Activity;
 import android.app.Fragment;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.os.Process;
-import android.preference.PreferenceFragment;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import com.google.gson.Gson;
+import org.greenrobot.eventbus.EventBus;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import de.greenrobot.event.EventBus;
-import android.app.Fragment;
+import java.util.concurrent.atomic.AtomicReference;
+
 public class ModelFragment extends Fragment {
-    private BookContents contents = null;
+  final private AtomicReference<BookContents> contents=
+    new AtomicReference<>();
+  final private AtomicReference<SharedPreferences> prefs=
+    new AtomicReference<>();
+
+  @Override
+  public void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setRetainInstance(true);
+  }
+
+  @Override
+  public void onAttach(Activity host) {
+    super.onAttach(host);
+
+    if (contents.get()==null) {
+      new LoadThread(host).start();
+    }
+  }
+
+  public BookContents getBook() {
+    return(contents.get());
+  }
+
+  public SharedPreferences getPrefs() {
+    return(prefs.get());
+  }
+
+  private class LoadThread extends Thread {
+    final private Context ctxt;
+
+    LoadThread(Context ctxt) {
+      super();
+
+      this.ctxt=ctxt.getApplicationContext();
+    }
 
     @Override
-    public void onCreate(Bundle savedInstanceState)
-    {
-      super.onCreate(savedInstanceState);
-        setRetainInstance(true);
+    public void run() {
+      prefs.set(PreferenceManager.getDefaultSharedPreferences(ctxt));
+
+      Process.setThreadPriority(Process.THREAD_PRIORITY_BACKGROUND);
+      Gson gson=new Gson();
+
+      try {
+        InputStream is=ctxt.getAssets().open("book/contents.json");
+        BufferedReader reader=
+          new BufferedReader(new InputStreamReader(is));
+
+        contents.set(gson.fromJson(reader, BookContents.class));
+
+        EventBus.getDefault().post(new BookLoadedEvent(getBook()));
+      }
+      catch (IOException e) {
+        Log.e(getClass().getSimpleName(), "Exception parsing JSON", e);
+      }
     }
-    @Override
-    public void onAttach(Activity host)
-    {
-        super.onAttach(host);
-
-        if (contents == null) {
-            new LoadThread(host.getAssets()).start();
-        }
-    }
-
-    synchronized public BookContents getBook()
-    {
-        return contents;
-    }
-    private class LoadThread extends Thread
-    {
-        private AssetManager assets = null;
-
-        LoadThread(AssetManager assets)
-        {
-            super();
-
-            this.assets = assets;
-        }
-
-    @Override
-     public void run() {
-        Process.setThreadPriority(Process.THREAD_PRIORITY_BACKGROUND);
-
-        Gson gson = new Gson();
-
-        try {
-            InputStream is;
-            is = assets.open("book/contents.json");
-            BufferedReader reader = new BufferedReader(new InputStreamReader(is));
-
-            synchronized ((this)) {
-                contents = gson.fromJson(reader, BookContents.class);
-            }
-
-            EventBus.getDefault().post((new BookLoadedEvent(contents)));
-        } catch (IOException e)
-        {
-            Log.e(getClass().getSimpleName(), "Exception parsing JSON", e);
-        }
-    }
-    }
+  }
 }

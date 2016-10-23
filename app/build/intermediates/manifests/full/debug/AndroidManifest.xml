@@ -5,17 +5,22 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="21"
-        android:targetSdkVersion="21" />
+        android:minSdkVersion="15"
+        android:targetSdkVersion="24" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
 
     <application
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.commonsware.empublite.EmPubLiteActivity"
-            android:label="@string/app_name" >
+        <activity android:name="com.commonsware.empublite.EmPubLiteActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,6 +28,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.commonsware.empublite.SimpleContentActivity" />
+        <activity android:name="com.commonsware.empublite.Preferences" />
     </application>
 
 </manifest>

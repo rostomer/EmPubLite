@@ -14,10 +14,10 @@
                     "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 295,
-                        "endColumn": 57,
-                        "endOffset": 348
+                        "startColumn": 2,
+                        "startOffset": 287,
+                        "endColumn": 55,
+                        "endOffset": 340
                     }
                 }
             }

@@ -12,8 +12,20 @@
         "source": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\drawable-hdpi\\ic_action_about.png"
     },
     {
+        "merged": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_settings_black_24px.png",
+        "source": "C:\\Android Projects\\EmPubLite\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_settings_black_24px.png"
+    },
+    {
+        "merged": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_info_outline_black_24dp.png",
+        "source": "C:\\Android Projects\\EmPubLite\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_info_outline_black_24dp.png"
+    },
+    {
         "merged": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_edit.png",
         "source": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\drawable-hdpi\\ic_action_edit.png"
+    },
+    {
+        "merged": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_help_outline_black_24px.png",
+        "source": "C:\\Android Projects\\EmPubLite\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_help_outline_black_24px.png"
     },
     {
         "merged": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_help.png",

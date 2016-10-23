@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <declare-styleable name="MaterialRippleLayout"><attr format="color" localization="suggested" name="mrlRippleColor"/><attr format="color" localization="suggested" name="mrlRippleHighlightColor"/><attr format="dimension" localization="suggested" name="mrlRippleDiameter"/><attr format="boolean" localization="suggested" name="mrlRippleOverlay"/><attr format="float" localization="suggested" name="mrlRippleAlpha"/><attr format="integer" localization="suggested" name="mrlRippleDuration"/><attr format="integer" localization="suggested" name="mrlRippleFadeDuration"/><attr format="boolean" localization="suggested" name="mrlRippleDelayClick"/><attr format="boolean" localization="suggested" name="mrlRipplePersistent"/><attr format="boolean" localization="suggested" name="mrlRippleInAdapter"/><attr format="dimension" localization="suggested" name="mrlRippleRoundedCorners"/></declare-styleable>
+    <declare-styleable name="MaterialTabs"><attr format="color" name="mtIndicatorColor"/><attr format="color" name="mtUnderlineColor"/><attr format="dimension" name="mtIndicatorHeight"/><attr format="dimension" name="mtUnderlineHeight"/><attr format="dimension" name="mtTabPaddingLeftRight"/><attr format="boolean" name="mtSameWeightTabs"/><attr format="boolean" name="mtTextAllCaps"/><attr format="boolean" name="mtPaddingMiddle"/><attr format="color" name="mtTextColorSelected"/><attr format="color" localization="suggested" name="mtMrlRippleColor"/><attr format="color" localization="suggested" name="mtMrlRippleHighlightColor"/><attr format="dimension" localization="suggested" name="mtMrlRippleDiameter"/><attr format="boolean" localization="suggested" name="mtMrlRippleOverlay"/><attr format="float" localization="suggested" name="mtMrlRippleAlpha"/><attr format="integer" localization="suggested" name="mtMrlRippleDuration"/><attr format="integer" localization="suggested" name="mtMrlRippleFadeDuration"/><attr format="boolean" localization="suggested" name="mtMrlRippleDelayClick"/><attr format="boolean" localization="suggested" name="mtMrlRipplePersistent"/><attr format="boolean" localization="suggested" name="mtMrlRippleInAdapter"/><attr format="dimension" localization="suggested" name="mtMrlRippleRoundedCorners"/></declare-styleable>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="about">About</string>
-    <string name="app_name">EmPubLite</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">EmPub Lite</string>
     <string name="help">Help</string>
+    <string name="hint">Enter notes here</string>
+    <string name="keepscreenon_summary">Keep the screen powered on while the reader is in the foreground</string>
+    <string name="keepscreenon_title">Keep Screen On</string>
+    <string name="lastposition_summary">Save the last chapter you were viewing and open up on that chapter when re-opening the app</string>
+    <string name="lastposition_title">Save Last Position</string>
+    <string name="settings">Settings</string>
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
-        <item name="android:colorPrimary">@color/primary</item>
-        <item name="android:colorPrimaryDark">@color/primary_dark</item>
-        <item name="android:colorAccent">@color/accent</item>
-        <!-- Customize your theme here. -->
-    </style>
+    <!-- Customize your theme here. -->
+  </style>
 </resources>

@@ -4,6 +4,14 @@
         "source": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
+        "merged": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\res\\merged\\debug\\layout\\editor.xml",
+        "source": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\layout\\editor.xml"
+    },
+    {
+        "merged": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mt_tab.xml",
+        "source": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\exploded-aar\\io.karim\\materialtabs\\2.0.5\\res\\layout\\mt_tab.xml"
+    },
+    {
         "merged": "C:\\Android Projects\\EmPubLite\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_simple_common.xml",
         "source": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\layout\\activity_simple_common.xml"
     }

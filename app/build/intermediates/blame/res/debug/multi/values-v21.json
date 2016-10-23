@@ -64,19 +64,19 @@
                     "startLine": 5,
                     "startColumn": 4,
                     "startOffset": 185,
-                    "endLine": 10,
-                    "endColumn": 12,
-                    "endOffset": 516
+                    "endLine": 9,
+                    "endColumn": 10,
+                    "endOffset": 472
                 },
                 "from": {
                     "file": "C:\\Android Projects\\EmPubLite\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "position": {
                         "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 54,
-                        "endLine": 8,
-                        "endColumn": 12,
-                        "endOffset": 385
+                        "startColumn": 2,
+                        "startOffset": 50,
+                        "endLine": 7,
+                        "endColumn": 10,
+                        "endOffset": 337
                     }
                 }
             }
